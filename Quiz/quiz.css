@@ -1,0 +1,18 @@
+body {
+    background-color: #FFD4D4;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+.abc{
+    color: #9D3C72;
+    
+}
+#button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
