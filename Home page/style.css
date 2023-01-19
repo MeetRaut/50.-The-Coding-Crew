@@ -16,6 +16,9 @@ ul{
 }
 ul li {
     display: inline-block;
+    position: relative;
+    right: 0px;
+    top: 0px;
 }
 ul li a{
     text-decoration: none;
@@ -30,14 +33,14 @@ color: black;
 }
 ul li.active a{
     background-color: white;
-color: black;
-    
+    color: black;
 }
 
 .logo img{
-    float: left;
-    width:150px;
-    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
 }
 .main {
     max-width: 1200px;
