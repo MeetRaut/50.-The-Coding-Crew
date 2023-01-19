@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Rowdies', cursive;
+}
+.background-image {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.bormu{
+  border: 10px solid black;
+}
+.borem{
+  border: 10px solid black;
+}
+.borbo{
+  border: 10px solid black;
+}
+.fo{
+  color: #fff;
+}
+.yoyo{
+  font-size: 60px;
+}
+.h{
+  font-size: 50px;
+}
+.music{
+  background-color: rgba(0, 0, 0,0.3);
+  padding: 20px;
+  font-size: 40px;
+  color: #fff;
+}
+.head{
+  font-size: 50px;
+}
+.medi{
+  background-color: rgba(0, 0, 0,0.3);
+  padding: 20px;
+  font-size: 40px;
+  color: #fff;
+}
+.he{
+  font-size: 50px;
+  color: #fff;
+}
+.book{
+  font-size: 40px;
+}

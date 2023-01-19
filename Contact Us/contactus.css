@@ -7,6 +7,18 @@ body{
   font-size: 14px;
   font-family: 'Kanit', sans-serif;
 }
+
+.btn01 {
+  background-color: #9c79a3;
+  border-radius: 0%;
+}
+
+.btn01 a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 .abc{
   color: #9c79a3;
   font-size: 20px;
@@ -14,6 +26,8 @@ body{
 h1{
   color: #9c79a3;
 }
+
+
 .container{
   width: 80%;
   margin: 50px auto;
