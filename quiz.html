@@ -4,87 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" type="text/css" href="quiz.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;800&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="quiz.js"></script>
-    <link rel="shortcut icon" href="img\Favicon.png" type="image/x-icon">
+    <title>Track Your Day</title>
+    <link rel="stylesheet" href="css/quiz.css">
+     
 </head>
 <body>
-    
-<form name="quiz" id="quiz">
-    <div class="abc">
-        <hr>
-        <p>• How often have you been bothered that you have little interest or pleasure in doing things over the last two weeks?</p>
-        <p><input type="radio" name="Question1" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question1" value="Several days">Several days</p>
-        <p><input type="radio" name="Question1" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question1" value="Nearly every day">Nearly every day</p>
-       <hr>
-        <p>• How often have you been bothered by feeling down, depressed, irritable, or hopeless over the last two weeks?</p>
-        <p><input type="radio" name="Question2" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question2" value="Several days">Several days</p>
-        <p><input type="radio" name="Question2" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question2" value="Nearly every day">Nearly every day</p>
-<hr>
 
-        <p>• How often have you been bothered by trouble falling asleep, staying asleep, or sleeping too much over the last two weeks?</p>
-        <p><input type="radio" name="Question3" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question3" value="Several days">Several days</p>
-        <p><input type="radio" name="Question3" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question3" value="Nearly every day">Nearly every day</p>
-<hr>
-        <p>• How often have you been bothered that you have poor appetite, weight loss, or overeating over the last two weeks?</p>
-        <p><input type="radio" name="Question4" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question4" value="Several days">Several days</p>
-        <p><input type="radio" name="Question4" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question4" value="Nearly every day">Nearly every day</p>
-    <hr>      
-        <p>• How often have you been bothered by feeling tired, or having little energy over the last two weeks?</p>
-        <p><input type="radio" name="Question5" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question5" value="Several days">Several days</p>
-        <p><input type="radio" name="Question5" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question5" value="Nearly every day">Nearly every day</p>
-         
-<hr>
-        <p>• How often have you been bothered by feeling bad about yourself or feeling that you are a failure, or that you have let yourself or your family down over the last two weeks?</p>
-        <p><input type="radio" name="Question6" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question6" value="Several days">Several days</p>
-        <p><input type="radio" name="Question6" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question6" value="Nearly every day">Nearly every day</p>
-<hr>
-
-        <p>• How often have you been bothered that you have trouble concentrating on things like school work, reading, or watching TV over the last two weeks?</p>
-        <p><input type="radio" name="Question7" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question7" value="Several days">Several days</p>
-        <p><input type="radio" name="Question7" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question7" value="Nearly every day">Nearly every day</p>
-<hr>
-        <p>• How often have you been bothered by moving or speaking so slowly that other people could have noticed? Or the opposite – being so fidgety or restless that you were moving around a lot more than usual over the last two weeks?</p>
-        <p><input type="radio" name="Question8" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question8" value="Several days">Several days</p>
-        <p><input type="radio" name="Question8" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question8" value="Nearly every day">Nearly every day</p>
-<hr>
-
-        <p>• How often have you been bothered by thoughts that you would be better off dead, or of hurting yourself in some way over the last two weeks?</p>
-        <p><input type="radio" name="Question9" value="Not at all">Not at all</p>
-        <p><input type="radio" name="Question9" value="Several days">Several days</p>
-        <p><input type="radio" name="Question9" value="More than half of the days">More than half of the days</p>
-        <p><input type="radio" name="Question9" value="Nearly every day">Nearly every day</p>
-    <hr>
-</div>
-
-
-
-    <input type="button" name="" value="Submit"id="button" onclick="check()">
-    </form>
-    <p id="result"></p>
-    
-    
-    
-    
+<div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+      </ul>
+    </div>
+    <button id="submit">Submit</button>
+  </div>
+  <script src="js/quiz.js"></script>
 </body>
-</html>

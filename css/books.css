@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;
     background-color: rgba(0, 0, 0,0.7);
 }
 .background-image{
-  background-image: url('lib1.jpg');
+  background-image: url(/img/lib1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;

@@ -91,3 +91,18 @@ ul li.active a{
   width: 80px;
     height: 80px;
 }
+
+.btn{
+  border: 1px solid white;
+  padding: 5px 15px;
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.btn:hover{
+  background-color: white;
+color: green;
+
+}
+
