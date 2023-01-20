@@ -115,7 +115,7 @@ submitBtn.addEventListener('click', () => {
            loadQuiz()
        } else {
            quiz.innerHTML = `
-           <h2>Congratulations on finishing your daily checkup <br> Keep it up!</h2>
+           <h2>Congratulations on finishing your daily checkup. <br>Here is your reward! <br> Keep it up!</h2>
            <a href="/quote.html"><button onclick="index.html">Proceed</button></a>
            `
        }

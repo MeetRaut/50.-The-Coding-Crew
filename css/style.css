@@ -236,13 +236,13 @@ footer {
 }
 
 .footer-distributed .footer-icons {
-    margin-top: 25px;
+    margin-top: 2px;
 }
 
 .footer-distributed .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
+    
+    width: 2px;
+    height: 2px;
     cursor: pointer;
     background-color: #33383b;
     border-radius: 2px;
@@ -272,4 +272,8 @@ footer {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-}  
+}
+.instagram{
+    height: 30px;
+    
+}
