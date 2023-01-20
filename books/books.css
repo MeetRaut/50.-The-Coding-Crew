@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+font-family: 'Poppins', sans-serif;
+}
+.title{
+  font-size: 60px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.background-image{
+  background-image: url('lib1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+.border-book0{
+  border: 10px solid black;
+}
+.border-book1{
+  border: 10px solid black;
+}
+.border-book2{
+  border: 10px solid black;
+}
+.border-book3{
+  border: 10px solid black;
+}
+.border-book4{
+  border: 10px solid black;
+}
+.book0{
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.book1{
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.book2{
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.book3{
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+}
+.book4{
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 40px;
+  font-size: 20px;
+  color: #fff;
+}
